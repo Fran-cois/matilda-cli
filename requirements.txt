@@ -7,7 +7,7 @@ pyyaml
 mysql-connector-python
 pandas
 numpy
-
+colorama>=0.4.6
 rich>=13.7.0
 
 # Optional dependencies
