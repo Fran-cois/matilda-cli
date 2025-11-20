@@ -1,0 +1,174 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+,cover
+hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# virtualenv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Ruff (linter)
+.ruff_cache/
+
+# isort
+.isort.cfg
+
+# Black (formatter)
+.black/
+
+# Flake8 (linter)
+.flake8
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+DocumentRevisions-V100
+fseventsd
+Spotlight-V100
+TemporaryItems
+Trashes
+VolumeIcon.icns
+
+# Exclude config files that may be local but keep repository ones tracked
+# (Don't ignore `config.yaml` which is intentionally tracked in this repo.)
+# Ignore user-specific config files
+config.local.yaml
+config_dev.yaml
+secrets.yml
+*.key
+*.pem
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Editor backups
+*~
+# Emacs
+*~
+.emacs.desktop
+.emacs.desktop.lock
+
+# Vim
+.swp
+.swo
+.swn
+
+# Coverage and profiling
+.cache/
+*.cover
+*.prof
+
+# Node modules (if any frontend)
+node_modules/
+
+# Build outputs
+dist/
+build/
+ai_doc/
+results/
+logs/
+data/

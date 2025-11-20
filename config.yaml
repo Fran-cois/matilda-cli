@@ -1,0 +1,23 @@
+monitor:
+  memory_threshold: 16106127360  # 15GB in bytes
+  timeout: 3600  # 1 hour
+
+algorithm:
+  nb_occurrence: 3  # Minimum number of times a pattern must occur
+  max_table: 3      # Maximum number of tables in a rule
+  max_vars: 6       # Maximum number of variables in a rule
+
+database:
+  path: "data/"
+  name: "database.db"
+
+logging:
+  log_dir: "logs"
+
+results:
+  output_dir: "results"
+
+mlflow:
+  use: false
+  tracking_uri: "http://localhost:5000"
+  experiment_name: "MATILDA TGD Discovery"

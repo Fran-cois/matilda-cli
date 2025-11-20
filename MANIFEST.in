@@ -1,0 +1,9 @@
+include README.md
+include requirements.txt
+include config.yaml
+include LICENSE
+recursive-include matilda_cli *.py
+recursive-include matilda_cli *.yaml
+recursive-exclude tests *
+recursive-exclude matilda_cli/__pycache__ *
+recursive-exclude matilda_cli/*.pyc *

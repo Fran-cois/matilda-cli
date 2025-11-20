@@ -1,0 +1,21 @@
+tqdm>=4.66.1
+requests
+beautifulsoup4
+psutil
+sqlalchemy
+pyyaml
+mysql-connector-python
+pandas
+numpy
+
+rich>=13.7.0
+
+# Optional dependencies
+# mlflow  # Uncomment for MLflow support
+
+# Development dependencies
+# pytest
+# pytest-cov
+# coverage
+# pytest-asyncio
+# pytest-mock

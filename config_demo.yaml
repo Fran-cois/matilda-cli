@@ -1,0 +1,23 @@
+monitor:
+  memory_threshold: 16106127360  # 15GB in bytes
+  timeout: 600  # 10 minutes max for demo
+
+algorithm:
+  nb_occurrence: 2  # Lower threshold for small databases
+  max_table: 3
+  max_vars: 6
+
+database:
+  path: "data/"
+  name: "university.db"
+
+logging:
+  log_dir: "logs"
+
+results:
+  output_dir: "results"
+
+mlflow:
+  use: false
+  tracking_uri: "http://localhost:5000"
+  experiment_name: "MATILDA Demo - University Database"
