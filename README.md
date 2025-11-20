@@ -1,7 +1,7 @@
 # MATILDA: Tuple-Generating Dependencies Discovery
 
 [![PyPI version](https://badge.fury.io/py/matilda-cli.svg)](https://badge.fury.io/py/matilda-cli)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Tests](https://img.shields.io/badge/tests-61%20passed-success)](tests/)
 [![Coverage](https://img.shields.io/badge/coverage-45%25-orange)](tests/)
@@ -416,12 +416,13 @@ ruff check matilda_cli/
 
 ## 📋 Requirements
 
-- **Python**: 3.8 or higher
+- **Python**: 3.10 or higher (required for type hints and modern language features)
 - **Core Dependencies**:
   - SQLAlchemy >= 2.0
   - PyYAML >= 6.0
   - psutil >= 5.9
   - tqdm >= 4.66
+  - colorama >= 0.4.6
 - **Optional**:
   - mlflow >= 2.0 (for experiment tracking)
   - pytest >= 7.0 (for development)
