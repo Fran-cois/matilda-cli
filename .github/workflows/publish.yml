@@ -2,8 +2,9 @@ name: Build and Publish Python Package
 
 on:
   push:
-    tags:
-      - 'v*'  # Déclencher sur les tags qui commencent par 'v'
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
